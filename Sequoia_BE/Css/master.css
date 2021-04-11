@@ -1,0 +1,36 @@
+﻿body {
+    margin: 0;
+}
+.panlheader {
+    font-weight: bold;
+    background-color: #f7f1d9;
+}
+
+.tableheaderleft {
+    text-align:left;
+    padding-left:5px;
+    font-size:large;
+}
+
+.tableheaderright {
+    text-align:right;
+    padding-right:12px;
+}
+
+.cpBody {
+    background-color: #DCE4F9;
+    font: normal 11px auto Verdana, Arial;
+    border: 1px gray;
+    width: auto;
+    padding: 4px;
+    padding-top: 2px;
+    height: 0px;
+    overflow: hidden;
+}
+a[aria-expanded=true] .fa-plus {
+    display: none;
+}
+
+a[aria-expanded=false] .fa-minus {
+    display: none;
+}
